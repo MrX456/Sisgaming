@@ -1,0 +1,14 @@
+#db_sisgaming
+
+-- Criação da tabela games
+CREATE TABLE tbl_games
+(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome_game VARCHAR(100) NOT NULL,
+    plataforma_game VARCHAR(35) NOT NULL,
+    screenshot LONGBLOB
+);
+
+
+-- Dados da tabela games
+SELECT * FROM tbl_games;
